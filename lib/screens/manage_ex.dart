@@ -15,6 +15,7 @@ class ManageExperiencesScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
+
         child: FutureBuilder<List<Map<String, dynamic>>>(
           future: SupabaseService().fetchData('experiences'),
           builder: (context, snapshot) {

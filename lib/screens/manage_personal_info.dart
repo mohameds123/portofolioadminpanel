@@ -14,6 +14,7 @@ class ManagePersonalInfoScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
+
         child: FutureBuilder<List<Map<String, dynamic>>>(
           future: SupabaseService().fetchData('personal_info'),
           builder: (context, snapshot) {

@@ -15,6 +15,7 @@ class AddPersonalInfoScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Add Personal Information'),
         backgroundColor: ColorsManagers.darkBlue,
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

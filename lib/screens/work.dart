@@ -14,6 +14,7 @@ class AddWorkScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Add New Work'),
         backgroundColor: ColorsManagers.darkBlue,
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

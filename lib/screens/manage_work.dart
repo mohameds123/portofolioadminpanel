@@ -16,6 +16,7 @@ class ManageWorksScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: FutureBuilder<List<Map<String, dynamic>>>(
+
           future: SupabaseService().fetchData('works'),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {

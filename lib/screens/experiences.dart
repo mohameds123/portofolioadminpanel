@@ -15,6 +15,7 @@ class AddExperienceScreen extends StatelessWidget {
         backgroundColor: ColorsManagers.darkBlue,
       ),
       body: Padding(
+
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
